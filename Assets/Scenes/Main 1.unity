@@ -241,9 +241,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 611420408}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f1006a9047304c9ab6119f7bd6338e1, type: 3}
+  m_Script: {fileID: 11500000, guid: d9a9a0c0fc51bc1478e302d67282b805, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_trackerObject: {fileID: 1030656206}
 --- !u!4 &611420410
 Transform:
   m_ObjectHideFlags: 0
@@ -772,7 +773,7 @@ MonoBehaviour:
   m_Camera: {fileID: 1030656206}
   m_ExclusionLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 2147483647
   m_Reticle: {fileID: 0}
   m_VrInput: {fileID: 1552000675}
   m_ShowDebugRay: 0
